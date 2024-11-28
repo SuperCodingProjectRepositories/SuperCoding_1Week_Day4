@@ -1,0 +1,157 @@
+﻿.selling-title{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: start;
+    padding: 15px;
+}
+
+.selling-title .selling-item{
+    width: 60px;
+    height: 50px;
+    background-color: #474747;
+    border-radius: 10px;
+}
+
+.selling-title .selling-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 15px;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.selling-title .selling-info .selling-info-title{
+    font-size: 16px;
+}
+
+.selling-title .selling-info .selling-info-price{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.chatting-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+}
+
+.chatting-list .chatting-bubble{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.chatting-bubble-right {
+    width: 200px;
+    height: 45px;
+    background-color: #fd7d35;
+    border-radius: 20px 0 20px 20px;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+}
+
+.chatting-bubble-right span {
+    color: white;
+    font-size: 16px;
+    text-align: start;
+}
+
+.chatting-bubble-right .chatting-bubble-time {
+    position: absolute;
+    left: -70px;
+    font-size: 16px;
+    color: #adb0af;
+}
+
+.chatting-bubble .chatting-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #4e4d4d;
+}
+
+.chatting-bubble-left {
+    width: 170px;
+    height: 20px;
+    background-color: #e8e9ed;
+    border-radius: 0 20px 20px 20px;
+    padding: 10px;
+    position: relative;
+    left: 0;
+}
+
+.chatting-bubble-left span {
+    color: #3a3b3f;
+    font-size: 16px;
+    text-align: end;
+}
+
+.chatting-bubble-left .chatting-bubble-time {
+    position: absolute;
+    right: -70px;
+    bottom: 0;
+    font-size: 16px;
+    color: #adb0af;
+}
+
+.challenger{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenger .challenger-box{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    border: 2px solid #f7f7f7;
+    box-shadow: 1px 1px 1px 1px #f3f3f3, -1px -1px .4em #f3f3f3;
+    justify-content: start;
+}
+
+.challenger .challenger-box .challenger-box-inner{
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.challenger .challenger-box .calendar-icon{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    background-color: #070707;
+    border-radius: 50%;
+}
+
+
+.challenger .challenger-box .challenger-box-inner .calendar-text-list{
+    margin-left: 15px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.challenger .challenger-box .challenger-box-inner .calendar-text-list .calendar-text-title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #323232;
+}
+
+.challenger .challenger-box .challenger-box-inner .calendar-text-list .calendar-text-subtitle{
+    font-size: 16px;
+    margin-bottom: 7px;
+    color: #323232;
+}
